@@ -16,7 +16,7 @@ In your log4net.config, please add these configurations:
 
 ```XML
 
-<appender name="AdoNetAppender" type="Log4NetCore.SqlServer.Appenders.AdoNetAppender, Log4NetCore.SqlServer">
+		<appender name="AdoNetAppender" type="Log4NetCore.SqlServer.Appenders.AdoNetAppender, Log4NetCore.SqlServer">
 			<bufferSize value="1" />
 			<connectionType value="System.Data.SqlClient.SqlConnection,System.Data.SqlClient,Version=4.0.0.0,Culture=neutral,PublicKeyToken=b77a5c561934e089" />
 			<connectionStringName value="[YOUR CONNECTION STRING NAME]" /> <!-- Example: log4netCoreDb -->
