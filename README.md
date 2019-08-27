@@ -81,7 +81,6 @@ var configuration = new ConfigurationBuilder()
 var connectionString = configuration.GetConnectionString("log4netCoreDb");
 
 // Configure Log4NetCore.SqlServer
-
 int affectedAdoNetAppenders = 0;
 
 // All repositories
