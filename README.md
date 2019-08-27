@@ -88,7 +88,7 @@ int affectedAdoNetAppenders = 0;
 // All repositories
 var results = AdoNetAppenderHelper.SetConnectionString(connectionString);
 
-// Specific repository from the assembly
+// Specific repository from the provided assembly
 affectedAdoNetAppenders = AdoNetAppenderHelper.SetConnectionString(assembly, connectionString);
 
 // Specific repository
