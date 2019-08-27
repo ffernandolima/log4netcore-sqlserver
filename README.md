@@ -1,4 +1,4 @@
-# Log4NetCore.Sqlserver
+# Log4NetCore.SqlServer
 
 log4net AdoNetAppender for .NET Core.
 
