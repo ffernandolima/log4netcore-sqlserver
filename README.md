@@ -7,6 +7,8 @@ https://logging.apache.org/log4net/ has no support for AdoNetAppender yet, so th
 P.S: Only SQL Server database provider supported.
 
 # Status
+[![NuGet Version](https://img.shields.io/nuget/v/Log4NetCore.SqlServer.svg)](https://www.nuget.org/packages/Log4NetCore.SqlServer/ "NuGet Version")
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Log4NetCore.SqlServer.svg)](https://www.nuget.org/packages/Log4NetCore.SqlServer/ "NuGet Downloads")
 
 # Getting Started
 
