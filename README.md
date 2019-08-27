@@ -88,10 +88,10 @@ int affectedAdoNetAppenders = 0;
 // All repositories
 var results = AdoNetAppenderHelper.SetConnectionString(connectionString);
 
-// Specfic repository from the assembly
+// Specific repository from the assembly
 affectedAdoNetAppenders = AdoNetAppenderHelper.SetConnectionString(assembly, connectionString);
 
-// Specfic repository
+// Specific repository
 var loggerRepository = LogManager.GetRepository(assembly);
 
 affectedAdoNetAppenders = loggerRepository.SetConnectionString(connectionString);
