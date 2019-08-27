@@ -93,12 +93,12 @@ affectedAdoNetAppenders = AdoNetAppenderHelper.SetConnectionString(assembly, con
 // Specfic repository
 var loggerRepository = LogManager.GetRepository(assembly);
 
-affectedAdoNetAppenders = loggerRepository.SetConnectionString(_connectionString);
+affectedAdoNetAppenders = loggerRepository.SetConnectionString(connectionString);
 
 // Specific appender
 var adoNetAppender = new AdoNetAppender();
 
-adoNetAppender.SetConnectionString(_connectionString);
+adoNetAppender.SetConnectionString(connectionString);
 
 ```   
 
