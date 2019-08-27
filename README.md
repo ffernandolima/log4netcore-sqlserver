@@ -51,11 +51,10 @@ In your log4net.config, please add these configurations:
 					<conversionPattern value="%message" />
 				</layout>
 			</parameter>
-		</appender>
-		
+		</appender>		
 ```
 
-Please pay attention to the property named type, it shall use the qualified assembly "Log4NetCore.SqlServer.Appenders.AdoNetAppender, Log4NetCore.SqlServer". Also, you need to provide your connection string name and the file which contains it through the properties "connectionStringName" and "connectionStringFile, so this app will find your connection string automatically.
+Please pay attention to the property named "type", it shall use the qualified assembly "Log4NetCore.SqlServer.Appenders.AdoNetAppender, Log4NetCore.SqlServer". Also, you need to provide your connection string name and the file which contains it through the properties "connectionStringName" and "connectionStringFile, so this app will find your connection string automatically.
 
 - Set database connection manually (through code)
 
