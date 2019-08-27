@@ -5,3 +5,5 @@
 /.vs
 /Log4NetCore.SqlServer/bin
 /Log4NetCore.SqlServer/obj
+/Log4NetCore.SqlServer.Tests/bin
+/Log4NetCore.SqlServer.Tests/obj
