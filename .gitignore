@@ -3,7 +3,7 @@
 ################################################################################
 
 /.vs
-/Log4NetCore.SqlServer/bin
-/Log4NetCore.SqlServer/obj
-/Log4NetCore.SqlServer.Tests/bin
-/Log4NetCore.SqlServer.Tests/obj
+/src/Log4NetCore.SqlServer/bin
+/src/Log4NetCore.SqlServer/obj
+/tests/Log4NetCore.SqlServer.Tests/bin
+/tests/Log4NetCore.SqlServer.Tests/obj

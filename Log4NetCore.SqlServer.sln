@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log4NetCore.SqlServer", "Log4NetCore.SqlServer\Log4NetCore.SqlServer.csproj", "{63BA3046-636E-4E12-9064-E9F02803278C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{48A0C545-B6C6-4D29-AC9C-2ED7EC5979C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4NetCore.SqlServer.Tests", "Log4NetCore.SqlServer.Tests\Log4NetCore.SqlServer.Tests.csproj", "{B5EDAA8A-41DD-485C-9F26-3D60FC01043B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DC54BC5D-2C65-420B-94D0-0ECFDC479F37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log4NetCore.SqlServer", "src\Log4NetCore.SqlServer\Log4NetCore.SqlServer.csproj", "{F1D8758D-D7B6-46A4-A3B4-8E196DB43B4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log4NetCore.SqlServer.Tests", "tests\Log4NetCore.SqlServer.Tests\Log4NetCore.SqlServer.Tests.csproj", "{AAE5720F-3D46-461E-8DD9-37BDD0423F1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,17 +17,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{63BA3046-636E-4E12-9064-E9F02803278C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63BA3046-636E-4E12-9064-E9F02803278C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63BA3046-636E-4E12-9064-E9F02803278C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63BA3046-636E-4E12-9064-E9F02803278C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B5EDAA8A-41DD-485C-9F26-3D60FC01043B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5EDAA8A-41DD-485C-9F26-3D60FC01043B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5EDAA8A-41DD-485C-9F26-3D60FC01043B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5EDAA8A-41DD-485C-9F26-3D60FC01043B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D8758D-D7B6-46A4-A3B4-8E196DB43B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D8758D-D7B6-46A4-A3B4-8E196DB43B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D8758D-D7B6-46A4-A3B4-8E196DB43B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D8758D-D7B6-46A4-A3B4-8E196DB43B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE5720F-3D46-461E-8DD9-37BDD0423F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE5720F-3D46-461E-8DD9-37BDD0423F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE5720F-3D46-461E-8DD9-37BDD0423F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE5720F-3D46-461E-8DD9-37BDD0423F1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1D8758D-D7B6-46A4-A3B4-8E196DB43B4E} = {48A0C545-B6C6-4D29-AC9C-2ED7EC5979C1}
+		{AAE5720F-3D46-461E-8DD9-37BDD0423F1C} = {DC54BC5D-2C65-420B-94D0-0ECFDC479F37}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {03FB94C2-51C2-44FB-9AF5-AB35C98C9C00}
